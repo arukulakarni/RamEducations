@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angular_MVCProject", "Angular_MVCProject\Angular_MVCProject.csproj", "{1DE93BDF-6501-4CDE-8A14-948F66344762}"
+	ProjectSection(ProjectDependencies) = postProject
+		{94ACFE44-4AAB-45B7-A2CA-06CA951AE35A} = {94ACFE44-4AAB-45B7-A2CA-06CA951AE35A}
+		{33184C57-4108-4850-89FA-3F209512D79A} = {33184C57-4108-4850-89FA-3F209512D79A}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RamEdu_DBLayer", "..\..\DL.MangementPortal\1.1\RamEdu_DBLayer.csproj", "{F702F514-3E0B-472D-BA26-C59DEFF359DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MngmntPortalEF", "..\..\DL.MgmntPortalEF\1.0\MngmntPortalEF\MngmntPortalEF\MngmntPortalEF.csproj", "{94ACFE44-4AAB-45B7-A2CA-06CA951AE35A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleDLLMethodCaller", "SampleDLLMethodCaller\SampleDLLMethodCaller.csproj", "{FD56D0DA-49D6-41F3-83B9-EF42EB6FC8A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples", "Samples\Samples.csproj", "{57A213CC-1604-4C0A-AE3C-BFCA0879023C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppFrame.Core", "..\..\..\Soft.AppFrame\AppFrame.Core\AppFrame.Core.csproj", "{33184C57-4108-4850-89FA-3F209512D79A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DE93BDF-6501-4CDE-8A14-948F66344762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DE93BDF-6501-4CDE-8A14-948F66344762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DE93BDF-6501-4CDE-8A14-948F66344762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DE93BDF-6501-4CDE-8A14-948F66344762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F702F514-3E0B-472D-BA26-C59DEFF359DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F702F514-3E0B-472D-BA26-C59DEFF359DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F702F514-3E0B-472D-BA26-C59DEFF359DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F702F514-3E0B-472D-BA26-C59DEFF359DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94ACFE44-4AAB-45B7-A2CA-06CA951AE35A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94ACFE44-4AAB-45B7-A2CA-06CA951AE35A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94ACFE44-4AAB-45B7-A2CA-06CA951AE35A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94ACFE44-4AAB-45B7-A2CA-06CA951AE35A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD56D0DA-49D6-41F3-83B9-EF42EB6FC8A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD56D0DA-49D6-41F3-83B9-EF42EB6FC8A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD56D0DA-49D6-41F3-83B9-EF42EB6FC8A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD56D0DA-49D6-41F3-83B9-EF42EB6FC8A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57A213CC-1604-4C0A-AE3C-BFCA0879023C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57A213CC-1604-4C0A-AE3C-BFCA0879023C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57A213CC-1604-4C0A-AE3C-BFCA0879023C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57A213CC-1604-4C0A-AE3C-BFCA0879023C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33184C57-4108-4850-89FA-3F209512D79A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33184C57-4108-4850-89FA-3F209512D79A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33184C57-4108-4850-89FA-3F209512D79A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33184C57-4108-4850-89FA-3F209512D79A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
